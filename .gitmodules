@@ -1,0 +1,3 @@
+[submodule "config/public/wp-content/plugins/redux-framework"]
+	path = config/public/wp-content/plugins/redux-framework
+	url = https://github.com/ReduxFramework/ReduxFramework.git
