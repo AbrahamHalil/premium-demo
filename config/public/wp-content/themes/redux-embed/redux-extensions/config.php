@@ -1,4 +1,4 @@
-<?
+<?php
 
 $redux_opt_name = "redux_demo";
 
