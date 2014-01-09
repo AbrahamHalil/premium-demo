@@ -1,0 +1,96 @@
+/* === GENERIC ELEMENTS == */
+
+.ui-dialog.ui-front, .ui-dialog{
+    z-index: 10 !important;
+}
+.ui-widget-overlay { z-index: 10 !important; }
+
+.dialog-inner-footer {
+  background: none repeat scroll 0 0 #FCFCFC;
+  border-top: 1px solid #DFDFDF;
+  bottom: 0;
+  box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.1) inset;
+  height: 40px;
+  margin-top: 10px;
+  overflow: auto;
+  padding-top: 10px;
+  position: relative;
+  width: 98%;
+}
+
+
+/* === DEMO SPECIFIC TWEAKS AND LAYOUT === */
+.demo h2 {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  margin: 0 0 1em 0;
+}
+.demo {
+  padding: 2em 0 1.5em 0;
+}
+
+.demo div.ui-toggle-switch {
+  display: block;
+  padding: 0.65em 0;
+}
+#radio {
+  padding: 1em 0;
+}
+#modal {
+  display: none;
+}
+.modalDemo p {
+  color: #777;
+  width: 50%;
+}
+.modalDemo p a {
+  color: #1584DE;
+}
+#eq > span {
+  margin-right: 13px;
+  width: 7px;
+}
+.demo .ui-button {
+  vertical-align: top;
+}
+
+
+
+
+
+/* === DARK MODE === */
+body.dark {
+  background-image: url(../img/dark_wall.png);
+}
+.dark h1 {
+  color: #EEE;
+  border-bottom: 1px solid #444;
+}
+.dark h2 {
+  color: #EEE;
+}
+.dark .ui-toggle-switch label {
+  color: #FFF;
+}
+.dark .ui-toggle-switch .ui-state-active {
+  background: transparent;
+  color: #FFF;
+}
+.dark .modalDemo p {
+  color: #AAA;
+}
+  .dark .modalDemo p a {
+    color: #50b1ff;
+  }
+
+
+div#TB_overlay, #TB_load{
+    z-index: 700001 !important;
+}
+div#TB_window{
+    z-index: 800001 !important;
+}
+
+.mceListBoxMenu{
+    z-index: 900001 !important;;
+}

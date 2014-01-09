@@ -1,0 +1,1492 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Builder v 1.0.0\n"
+"POT-Creation-Date: 2013-10-30 02:14+0300\n"
+"PO-Revision-Date: 2013-10-30 02:14+0300\n"
+"Last-Translator: Abdullah Almebsahi <abdullah@cadr.sa>\n"
+"Language-Team: Cadr Team <Support@cadr.sa>\n"
+"Language: english\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../config.php:50
+msgid ""
+"You need to install ReduxFramework plugin first to be able to use this "
+"builder , Please download it from <a href=\"https://github.com/"
+"ReduxFramework/ReduxFramework/archive/master.zip\">here</a>"
+msgstr ""
+
+#: ../widgets-config.php:11
+msgid "Button"
+msgstr ""
+
+#: ../widgets-config.php:12
+msgid "Creates a colored button"
+msgstr ""
+
+#: ../widgets-config.php:17
+msgid "Button Label"
+msgstr ""
+
+#: ../widgets-config.php:18
+msgid "This is the text that appears on your button."
+msgstr ""
+
+#: ../widgets-config.php:22
+msgid "Button Link?"
+msgstr ""
+
+#: ../widgets-config.php:23
+msgid "Where should your button link to?"
+msgstr ""
+
+#: ../widgets-config.php:28 ../widgets-config.php:274
+#: ../widgets-config.php:335 ../widgets-config.php:707
+msgid "No Link"
+msgstr ""
+
+#: ../widgets-config.php:29 ../widgets-config.php:275
+#: ../widgets-config.php:336 ../widgets-config.php:708
+msgid "Set Manually"
+msgstr ""
+
+#: ../widgets-config.php:30 ../widgets-config.php:276
+#: ../widgets-config.php:337 ../widgets-config.php:709
+msgid "Single Entry"
+msgstr ""
+
+#: ../widgets-config.php:31 ../widgets-config.php:277
+#: ../widgets-config.php:338 ../widgets-config.php:710
+msgid "Taxonomy Overview Page"
+msgstr ""
+
+#: ../widgets-config.php:37 ../widgets-config.php:716
+msgid "Open Link in new Window?"
+msgstr ""
+
+#: ../widgets-config.php:38 ../widgets-config.php:717
+#: ../inc/section-settings.php:42
+msgid "Select here if you want to open the linked page in a new window"
+msgstr ""
+
+#: ../widgets-config.php:41 ../widgets-config.php:720
+msgid "No, open in same window"
+msgstr ""
+
+#: ../widgets-config.php:42 ../widgets-config.php:721
+msgid "Yes, open in new window"
+msgstr ""
+
+#: ../widgets-config.php:48
+msgid "Button Color"
+msgstr ""
+
+#: ../widgets-config.php:49
+msgid "Choose a color for your button here"
+msgstr ""
+
+#: ../widgets-config.php:52
+msgid "Transparent"
+msgstr ""
+
+#: ../widgets-config.php:53
+msgid "Default (gray)"
+msgstr ""
+
+#: ../widgets-config.php:54
+msgid "Dark Blue"
+msgstr ""
+
+#: ../widgets-config.php:55
+msgid "Light Blue"
+msgstr ""
+
+#: ../widgets-config.php:56 ../widgets-config.php:791
+#: ../widgets-config.php:859
+msgid "Green"
+msgstr ""
+
+#: ../widgets-config.php:57 ../widgets-config.php:793
+#: ../widgets-config.php:861
+msgid "Orange"
+msgstr ""
+
+#: ../widgets-config.php:58 ../widgets-config.php:794
+#: ../widgets-config.php:862
+msgid "Red"
+msgstr ""
+
+#: ../widgets-config.php:64
+msgid "Button Size"
+msgstr ""
+
+#: ../widgets-config.php:65
+msgid "Choose the size of your button here"
+msgstr ""
+
+#: ../widgets-config.php:68
+msgid "Extra small"
+msgstr ""
+
+#: ../widgets-config.php:69
+msgid "Small"
+msgstr ""
+
+#: ../widgets-config.php:70
+msgid "Medium"
+msgstr ""
+
+#: ../widgets-config.php:71
+msgid "Large"
+msgstr ""
+
+#: ../widgets-config.php:77
+msgid "Button Position"
+msgstr ""
+
+#: ../widgets-config.php:78
+msgid "Choose the alignment of your button here"
+msgstr ""
+
+#: ../widgets-config.php:81
+msgid "Align Left"
+msgstr ""
+
+#: ../widgets-config.php:82
+msgid "Align Center"
+msgstr ""
+
+#: ../widgets-config.php:83
+msgid "Align Right"
+msgstr ""
+
+#: ../widgets-config.php:89 ../widgets-config.php:100
+msgid "Button Icon"
+msgstr ""
+
+#: ../widgets-config.php:90
+msgid "Should an icon be displayed at the left side of the button"
+msgstr ""
+
+#: ../widgets-config.php:101
+msgid "Select an icon for your Button bellow"
+msgstr ""
+
+#: ../widgets-config.php:107
+msgid "Gallery"
+msgstr ""
+
+#: ../widgets-config.php:108
+msgid "Creates a custom gallery"
+msgstr ""
+
+#: ../widgets-config.php:113
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: ../widgets-config.php:114
+msgid "Create a new Gallery by selecting existing or uploading new images"
+msgstr ""
+
+#: ../widgets-config.php:139
+msgid "Gallery Preview Image Size"
+msgstr ""
+
+#: ../widgets-config.php:140
+msgid "Choose image size for the small preview thumbnails"
+msgstr ""
+
+#: ../widgets-config.php:146
+msgid "Gallery Columns"
+msgstr ""
+
+#: ../widgets-config.php:147
+msgid "Choose the column count of your Gallery"
+msgstr ""
+
+#: ../widgets-config.php:154
+msgid "Gallery Fade in Animation"
+msgstr ""
+
+#: ../widgets-config.php:155
+msgid ""
+"Add a small animation to the gallery when the user first scrolls to the "
+"gallery position. This is only to add some 'spice' to the site and only "
+"works in modern browsers"
+msgstr ""
+
+#: ../widgets-config.php:159 ../widgets-config.php:320
+msgid "No animation"
+msgstr ""
+
+#: ../widgets-config.php:160
+msgid "Fade In"
+msgstr ""
+
+#: ../widgets-config.php:161
+msgid "Slide Up"
+msgstr ""
+
+#: ../widgets-config.php:162
+msgid "Slide Down"
+msgstr ""
+
+#: ../widgets-config.php:163
+msgid "Slide Left"
+msgstr ""
+
+#: ../widgets-config.php:164
+msgid "Slide Right"
+msgstr ""
+
+#: ../widgets-config.php:169
+msgid "Use fancybox"
+msgstr ""
+
+#: ../widgets-config.php:170
+msgid "Do you want to activate the fancybox"
+msgstr ""
+
+#: ../widgets-config.php:174 ../widgets-config.php:447
+#: ../widgets-config.php:458 ../widgets-config.php:1066
+msgid "Yes"
+msgstr ""
+
+#: ../widgets-config.php:175
+msgid "No, open the images in the browser window"
+msgstr ""
+
+#: ../widgets-config.php:176
+msgid "No, open the images in a new browser window/tab"
+msgstr ""
+
+#: ../widgets-config.php:177
+msgid "No, don't add a link to the images at al"
+msgstr ""
+
+#: ../widgets-config.php:184
+msgid "Horizontal Ruler"
+msgstr ""
+
+#: ../widgets-config.php:185
+msgid "Creates a delimiter to separate elements"
+msgstr ""
+
+#: ../widgets-config.php:191
+msgid "Horizontal Ruler Styling"
+msgstr ""
+
+#: ../widgets-config.php:192
+msgid "Here you can set the styling and size of the HR element"
+msgstr ""
+
+#: ../widgets-config.php:195 ../inc/widgets.php:305
+msgid "Default"
+msgstr ""
+
+#: ../widgets-config.php:196
+msgid "Big Top and Bottom Margins, open in new window"
+msgstr ""
+
+#: ../widgets-config.php:197
+msgid "Fullwidth Separator"
+msgstr ""
+
+#: ../widgets-config.php:198
+msgid "Whitespace, open in new window"
+msgstr ""
+
+#: ../widgets-config.php:199
+msgid "Short Separator"
+msgstr ""
+
+#: ../widgets-config.php:205
+msgid "Height"
+msgstr ""
+
+#: ../widgets-config.php:207
+msgid "How much whitespace do you need? Enter a pixel value"
+msgstr ""
+
+#: ../widgets-config.php:213 ../inc/section-settings.php:94
+msgid "Section Top Shadow"
+msgstr ""
+
+#: ../widgets-config.php:214 ../inc/section-settings.php:95
+msgid "Display a small styling shadow at the top of the section"
+msgstr ""
+
+#: ../widgets-config.php:218 ../inc/section-settings.php:99
+msgid "Display shadow"
+msgstr ""
+
+#: ../widgets-config.php:219 ../inc/section-settings.php:100
+msgid "Do not display shadow"
+msgstr ""
+
+#: ../widgets-config.php:225
+msgid "Position"
+msgstr ""
+
+#: ../widgets-config.php:226
+msgid "Set the position of the short ruler"
+msgstr ""
+
+#: ../widgets-config.php:230 ../widgets-config.php:307
+msgid "Center"
+msgstr ""
+
+#: ../widgets-config.php:231 ../widgets-config.php:256
+#: ../widgets-config.php:309
+msgid "Left"
+msgstr ""
+
+#: ../widgets-config.php:232 ../widgets-config.php:308
+msgid "Right"
+msgstr ""
+
+#: ../widgets-config.php:239
+msgid "Icon box"
+msgstr ""
+
+#: ../widgets-config.php:240
+msgid "Create a content block with icon to left or above"
+msgstr ""
+
+#: ../widgets-config.php:246
+msgid "IconBox Icon"
+msgstr ""
+
+#: ../widgets-config.php:247
+msgid "Select an IconBox Icon bellow"
+msgstr ""
+
+#: ../widgets-config.php:252
+msgid "Icon Position"
+msgstr ""
+
+#: ../widgets-config.php:253
+msgid "Should the icon be positioned at the left or at the top?"
+msgstr ""
+
+#: ../widgets-config.php:257
+msgid "Top"
+msgstr ""
+
+#: ../widgets-config.php:262 ../widgets-config.php:841
+msgid "Title"
+msgstr ""
+
+#: ../widgets-config.php:263
+msgid "Add an IconBox title here"
+msgstr ""
+
+#: ../widgets-config.php:268 ../widgets-config.php:329
+msgid "Image Link?"
+msgstr ""
+
+#: ../widgets-config.php:269 ../widgets-config.php:330
+msgid "Where should your image link to?"
+msgstr ""
+
+#: ../widgets-config.php:282 ../widgets-config.php:558
+msgid "Content"
+msgstr ""
+
+#: ../widgets-config.php:283
+msgid "Add some content for this IconBox"
+msgstr ""
+
+#: ../widgets-config.php:291 ../widgets-config.php:479
+msgid "Image"
+msgstr ""
+
+#: ../widgets-config.php:292
+msgid "Displays a simple image."
+msgstr ""
+
+#: ../widgets-config.php:297
+msgid "Choose image"
+msgstr ""
+
+#: ../widgets-config.php:298 ../widgets-config.php:480
+#: ../widgets-config.php:683
+msgid ""
+"Either upload a new, or choose an existing image from your media library"
+msgstr ""
+
+#: ../widgets-config.php:303
+msgid "Image Alignment"
+msgstr ""
+
+#: ../widgets-config.php:304
+msgid "Choose here, how to align your image"
+msgstr ""
+
+#: ../widgets-config.php:310
+msgid "No special alignment"
+msgstr ""
+
+#: ../widgets-config.php:315
+msgid "Image Fade in Animation"
+msgstr ""
+
+#: ../widgets-config.php:316
+msgid ""
+"Add a small animation to the image when the user first scrolls to the image "
+"position. This is only to add some 'spice' to the site and only works in "
+"modern browsers"
+msgstr ""
+
+#: ../widgets-config.php:321
+msgid "Top to Bottom"
+msgstr ""
+
+#: ../widgets-config.php:322
+msgid "Bottom to Top"
+msgstr ""
+
+#: ../widgets-config.php:323
+msgid "Left to Right"
+msgstr ""
+
+#: ../widgets-config.php:324
+msgid "Right to Left"
+msgstr ""
+
+#: ../widgets-config.php:345
+msgid "Advanced Layerslider"
+msgstr ""
+
+#: ../widgets-config.php:346
+msgid "Display a Layerslider Slideshow"
+msgstr ""
+
+#: ../widgets-config.php:351
+msgid "Layerslider"
+msgstr ""
+
+#: ../widgets-config.php:352
+msgid "Here you can choose which slideshow to show"
+msgstr ""
+
+#: ../widgets-config.php:361
+msgid "Portfolio Grid"
+msgstr ""
+
+#: ../widgets-config.php:362
+msgid "Creates a grid of portfolio excerpts"
+msgstr ""
+
+#: ../widgets-config.php:371
+msgid "Which categories should be used for the portfolio?"
+msgstr ""
+
+#: ../widgets-config.php:372 ../widgets-config.php:960
+msgid ""
+"You can select multiple categories here. The Page will then show posts from "
+"only those categories."
+msgstr ""
+
+#: ../widgets-config.php:378
+msgid "Columns"
+msgstr ""
+
+#: ../widgets-config.php:379
+msgid "How many columns should be displayed?"
+msgstr ""
+
+#: ../widgets-config.php:382
+msgid "2 Columns"
+msgstr ""
+
+#: ../widgets-config.php:383
+msgid "3 Columns"
+msgstr ""
+
+#: ../widgets-config.php:384
+msgid "4 Columns"
+msgstr ""
+
+#: ../widgets-config.php:385
+msgid "6 Columns"
+msgstr ""
+
+#: ../widgets-config.php:391 ../widgets-config.php:1054
+msgid "Post Number"
+msgstr ""
+
+#: ../widgets-config.php:392 ../widgets-config.php:1055
+msgid "How many items should be displayed per page?"
+msgstr ""
+
+#: ../widgets-config.php:394 ../inc/utils.php:555
+msgid "All"
+msgstr ""
+
+#: ../widgets-config.php:399 ../widgets-config.php:1027
+msgid "Excerpt"
+msgstr ""
+
+#: ../widgets-config.php:400
+msgid "Display Excerpt and Title bellow the preview image?"
+msgstr ""
+
+#: ../widgets-config.php:403 ../widgets-config.php:1009
+msgid "Title and Excerpt"
+msgstr ""
+
+#: ../widgets-config.php:404 ../widgets-config.php:1011
+msgid "Only Title"
+msgstr ""
+
+#: ../widgets-config.php:405 ../widgets-config.php:1013
+msgid "Only excerpt"
+msgstr ""
+
+#: ../widgets-config.php:406 ../widgets-config.php:1015
+msgid "No Title and no excerpt"
+msgstr ""
+
+#: ../widgets-config.php:412 ../widgets-config.php:1034
+msgid "Preview Image Size"
+msgstr ""
+
+#: ../widgets-config.php:413 ../widgets-config.php:1035
+msgid "Set the image size of the preview images"
+msgstr ""
+
+#: ../widgets-config.php:416 ../widgets-config.php:1038
+msgid ""
+"Set the preview image size automatically based on column or layout width"
+msgstr ""
+
+#: ../widgets-config.php:417 ../widgets-config.php:1039
+msgid "Choose the preview image size manually (select thumbnail size)"
+msgstr ""
+
+#: ../widgets-config.php:423 ../widgets-config.php:1045
+msgid "Select custom preview image size"
+msgstr ""
+
+#: ../widgets-config.php:424 ../widgets-config.php:1046
+msgid "Choose image size for Preview Image"
+msgstr ""
+
+#: ../widgets-config.php:432
+msgid "Link Handling"
+msgstr ""
+
+#: ../widgets-config.php:433
+msgid ""
+"When clicking on a portfolio item you can choose to open the link to the "
+"single entry or show a bigger version of the image in a lightbox overlay"
+msgstr ""
+
+#: ../widgets-config.php:436
+msgid "Open the entry on a new page"
+msgstr ""
+
+#: ../widgets-config.php:437
+msgid "Display the big image in a fancybox"
+msgstr ""
+
+#: ../widgets-config.php:443
+msgid "Sortable?"
+msgstr ""
+
+#: ../widgets-config.php:444
+msgid "Should the sorting options based on categories be displayed?"
+msgstr ""
+
+#: ../widgets-config.php:448 ../widgets-config.php:459
+#: ../widgets-config.php:872 ../widgets-config.php:1067
+msgid "No"
+msgstr ""
+
+#: ../widgets-config.php:454 ../widgets-config.php:1062
+msgid "Pagination"
+msgstr ""
+
+#: ../widgets-config.php:455 ../widgets-config.php:1063
+msgid "Should a pagination be displayed?"
+msgstr ""
+
+#: ../widgets-config.php:466
+msgid "Testimonials"
+msgstr ""
+
+#: ../widgets-config.php:467
+msgid "Creates a Testimonial Grid"
+msgstr ""
+
+#: ../widgets-config.php:472
+msgid "Add/Edit Testimonial"
+msgstr ""
+
+#: ../widgets-config.php:473
+msgid "Here you can add, remove and edit your Testimonials."
+msgstr ""
+
+#: ../widgets-config.php:474
+msgid "Testimonial"
+msgstr ""
+
+#: ../widgets-config.php:485 ../inc/widgets.php:281 ../inc/widgets.php:282
+msgid "Name"
+msgstr ""
+
+#: ../widgets-config.php:486
+msgid "Enter the Name of the Person to quote"
+msgstr ""
+
+#: ../widgets-config.php:491
+msgid "Subtitle bellow name"
+msgstr ""
+
+#: ../widgets-config.php:492
+msgid "Can be used for a job description"
+msgstr ""
+
+#: ../widgets-config.php:497
+msgid "Quote"
+msgstr ""
+
+#: ../widgets-config.php:498
+msgid "Enter the testimonial here"
+msgstr ""
+
+#: ../widgets-config.php:503
+msgid "Website Link"
+msgstr ""
+
+#: ../widgets-config.php:504
+msgid "Link to the Persons website"
+msgstr ""
+
+#: ../widgets-config.php:509
+msgid "Website Name"
+msgstr ""
+
+#: ../widgets-config.php:510
+msgid "Linktext for the above Link"
+msgstr ""
+
+#: ../widgets-config.php:517
+msgid "Testimonial Style"
+msgstr ""
+
+#: ../widgets-config.php:518
+msgid ""
+"Here you can select how to display the testimonials. You can either create a "
+"testimonial slider or a testimonial grid with multiple columns\n"
+msgstr ""
+
+#: ../widgets-config.php:525
+msgid "Testimonial Grid Columns"
+msgstr ""
+
+#: ../widgets-config.php:526
+msgid "How many columns do you want to display"
+msgstr ""
+
+#: ../widgets-config.php:539 ../widgets-config.php:747
+msgid "Slideshow autorotation duration"
+msgstr ""
+
+#: ../widgets-config.php:540
+msgid "Slideshow will rotate every X seconds"
+msgstr ""
+
+#: ../widgets-config.php:545 ../widgets-config.php:751
+msgid "No , Don not autorotation"
+msgstr ""
+
+#: ../widgets-config.php:551
+msgid "Text Block"
+msgstr ""
+
+#: ../widgets-config.php:552
+msgid "Create a simple block text."
+msgstr ""
+
+#: ../widgets-config.php:559
+msgid "Enter some content for this textblock"
+msgstr ""
+
+#: ../widgets-config.php:565
+msgid "Tabs"
+msgstr ""
+
+#: ../widgets-config.php:566
+msgid "Creates a tabbed content area"
+msgstr ""
+
+#: ../widgets-config.php:571
+msgid "Tab Position"
+msgstr ""
+
+#: ../widgets-config.php:572
+msgid "Where should the tabs be displayed"
+msgstr ""
+
+#: ../widgets-config.php:584
+msgid "Add/Edit Tabs"
+msgstr ""
+
+#: ../widgets-config.php:585
+msgid "Here you can add, remove and edit the Tabs you want to display."
+msgstr ""
+
+#: ../widgets-config.php:586
+msgid "Tab"
+msgstr ""
+
+#: ../widgets-config.php:591
+msgid "Tab Title"
+msgstr ""
+
+#: ../widgets-config.php:592
+msgid "Enter the tab title here (Better keep it short)"
+msgstr ""
+
+#: ../widgets-config.php:598 ../widgets-config.php:607
+msgid "Tab Icon"
+msgstr ""
+
+#: ../widgets-config.php:599
+msgid "Should an icon be displayed at the left side of the tab title?"
+msgstr ""
+
+#: ../widgets-config.php:601 ../widgets-config.php:818
+#: ../widgets-config.php:880
+msgid "Yes, display Icon"
+msgstr ""
+
+#: ../widgets-config.php:602 ../widgets-config.php:819
+#: ../widgets-config.php:881
+msgid "No Icon"
+msgstr ""
+
+#: ../widgets-config.php:608
+msgid "Select an icon for your tab title bellow"
+msgstr ""
+
+#: ../widgets-config.php:615
+msgid "Tab Content"
+msgstr ""
+
+#: ../widgets-config.php:616 ../widgets-config.php:653
+msgid "Enter some content here"
+msgstr ""
+
+#: ../widgets-config.php:617
+msgid "Tab Content goes here"
+msgstr ""
+
+#: ../widgets-config.php:624 ../widgets-config.php:661
+msgid "Initial Open"
+msgstr ""
+
+#: ../widgets-config.php:625
+msgid "Enter the Number of the Tab that should be open initially."
+msgstr ""
+
+#: ../widgets-config.php:631 ../widgets-config.php:640
+msgid "Accordion"
+msgstr ""
+
+#: ../widgets-config.php:632
+msgid "Creates toggles or accordions"
+msgstr ""
+
+#: ../widgets-config.php:638
+msgid "Add/Edit Toggles"
+msgstr ""
+
+#: ../widgets-config.php:639
+msgid "Here you can add, remove and edit the toggles you want to display."
+msgstr ""
+
+#: ../widgets-config.php:645
+msgid "Toggle Title"
+msgstr ""
+
+#: ../widgets-config.php:646
+msgid "Enter the toggle title here (Better keep it short)"
+msgstr ""
+
+#: ../widgets-config.php:652
+msgid "Toggle Content"
+msgstr ""
+
+#: ../widgets-config.php:654
+msgid "Toggle Content goes here"
+msgstr ""
+
+#: ../widgets-config.php:662
+msgid ""
+"Enter the Number of the Accordion Item that should be open initially. Set to "
+"Zero if all should be close on page load"
+msgstr ""
+
+#: ../widgets-config.php:669 ../widgets-config.php:677
+msgid "Slide"
+msgstr ""
+
+#: ../widgets-config.php:670
+msgid "Display a simple slideshow element"
+msgstr ""
+
+#: ../widgets-config.php:675
+msgid "Add Images"
+msgstr ""
+
+#: ../widgets-config.php:676
+msgid "Here you can add new Images to the slideshow."
+msgstr ""
+
+#: ../widgets-config.php:682
+msgid "Choose another Image"
+msgstr ""
+
+#: ../widgets-config.php:688
+msgid "Caption Title"
+msgstr ""
+
+#: ../widgets-config.php:689
+msgid "Enter a caption title for the slide here"
+msgstr ""
+
+#: ../widgets-config.php:695
+msgid "Caption Text"
+msgstr ""
+
+#: ../widgets-config.php:696
+msgid "Enter some additional caption text"
+msgstr ""
+
+#: ../widgets-config.php:701
+msgid "Slide Link?"
+msgstr ""
+
+#: ../widgets-config.php:702
+msgid "Where should the Slide link to?"
+msgstr ""
+
+#: ../widgets-config.php:729
+msgid "image size"
+msgstr ""
+
+#: ../widgets-config.php:730
+msgid "Choose image option size for slide"
+msgstr ""
+
+#: ../widgets-config.php:731
+msgid "Full width"
+msgstr ""
+
+#: ../widgets-config.php:732
+msgid "Custom width"
+msgstr ""
+
+#: ../widgets-config.php:738
+msgid "Slideshow Image Size"
+msgstr ""
+
+#: ../widgets-config.php:739
+msgid "Choose image size for your slideshow."
+msgstr ""
+
+#: ../widgets-config.php:748
+msgid "Images will be shown the selected amount of seconds."
+msgstr ""
+
+#: ../widgets-config.php:758
+msgid "Progress Bars"
+msgstr ""
+
+#: ../widgets-config.php:759
+msgid "Create some progress bars"
+msgstr ""
+
+#: ../widgets-config.php:765
+msgid "Add/Edit Progress Bars"
+msgstr ""
+
+#: ../widgets-config.php:766
+msgid "Here you can add, remove and edit the various progress bars."
+msgstr ""
+
+#: ../widgets-config.php:767
+msgid "Progress Bar"
+msgstr ""
+
+#: ../widgets-config.php:772
+msgid "Progress Bars Title"
+msgstr ""
+
+#: ../widgets-config.php:773
+msgid "Enter the Progress Bars title here"
+msgstr ""
+
+#: ../widgets-config.php:779
+msgid "Progress in %"
+msgstr ""
+
+#: ../widgets-config.php:780
+msgid "Select a number between 0 and 100"
+msgstr ""
+
+#: ../widgets-config.php:787
+msgid "Bar Color"
+msgstr ""
+
+#: ../widgets-config.php:788
+msgid "Choose a color for your progress bar here"
+msgstr ""
+
+#: ../widgets-config.php:792 ../widgets-config.php:860
+msgid "Blue"
+msgstr ""
+
+#: ../widgets-config.php:800
+msgid "Gradient"
+msgstr ""
+
+#: ../widgets-config.php:801
+msgid "Should active gradient color to be displayed in progress bar"
+msgstr ""
+
+#: ../widgets-config.php:807
+msgid "Animated"
+msgstr ""
+
+#: ../widgets-config.php:808
+msgid "Should active animation in progress bar"
+msgstr ""
+
+#: ../widgets-config.php:815 ../widgets-config.php:877
+msgid "Icon"
+msgstr ""
+
+#: ../widgets-config.php:816
+msgid "Should an icon be displayed at the left side of the progress bar"
+msgstr ""
+
+#: ../widgets-config.php:824 ../widgets-config.php:886
+msgid "List Item Icon"
+msgstr ""
+
+#: ../widgets-config.php:825 ../widgets-config.php:887
+msgid "Select an icon for your list item bellow"
+msgstr ""
+
+#: ../widgets-config.php:835
+msgid "Notification"
+msgstr ""
+
+#: ../widgets-config.php:836
+msgid "Creates a notification box to inform visitors"
+msgstr ""
+
+#: ../widgets-config.php:842
+msgid "This is the small title at the top of your Notification."
+msgstr ""
+
+#: ../widgets-config.php:848
+msgid "Message"
+msgstr ""
+
+#: ../widgets-config.php:849
+msgid "This is the text that appears in your Notification."
+msgstr ""
+
+#: ../widgets-config.php:855
+msgid "Message Colors"
+msgstr ""
+
+#: ../widgets-config.php:856
+msgid "Choose the color for your Box here"
+msgstr ""
+
+#: ../widgets-config.php:868
+msgid "Dismiss notification"
+msgstr ""
+
+#: ../widgets-config.php:869
+msgid ""
+"Should an dismiss icon be displayed at the right side of the notification"
+msgstr ""
+
+#: ../widgets-config.php:871
+msgid "Yes, display dismiss icon"
+msgstr ""
+
+#: ../widgets-config.php:878
+msgid "Should an icon be displayed at the left side of the notification"
+msgstr ""
+
+#: ../widgets-config.php:895
+msgid "Video"
+msgstr ""
+
+#: ../widgets-config.php:896
+msgid "Display a video"
+msgstr ""
+
+#: ../widgets-config.php:901
+msgid "Video Link"
+msgstr ""
+
+#: ../widgets-config.php:902
+msgid "Enter link to a video by URL"
+msgstr ""
+
+#: ../widgets-config.php:903
+msgid "A list of all supported Video Services can be found on"
+msgstr ""
+
+#: ../widgets-config.php:905
+msgid "Working examples, in case you want to use an external service:"
+msgstr ""
+
+#: ../widgets-config.php:913
+msgid "Video Format"
+msgstr ""
+
+#: ../widgets-config.php:914
+msgid ""
+"Choose if you want to display a modern 16:9 or classic 4:3 Video, or use a "
+"custom ratio"
+msgstr ""
+
+#: ../widgets-config.php:917
+msgid "16:9"
+msgstr ""
+
+#: ../widgets-config.php:918
+msgid "4:3"
+msgstr ""
+
+#: ../widgets-config.php:919
+msgid "Custom Ratio"
+msgstr ""
+
+#: ../widgets-config.php:925
+msgid "Video width"
+msgstr ""
+
+#: ../widgets-config.php:926
+msgid "Enter a value for the width"
+msgstr ""
+
+#: ../widgets-config.php:933
+msgid "Video height"
+msgstr ""
+
+#: ../widgets-config.php:934
+msgid "Enter a value for the height"
+msgstr ""
+
+#: ../widgets-config.php:942
+msgid "Blog Posts"
+msgstr ""
+
+#: ../widgets-config.php:943
+msgid "Displays Posts from your Blog"
+msgstr ""
+
+#: ../widgets-config.php:948
+msgid "Do you want to display blog posts?"
+msgstr ""
+
+#: ../widgets-config.php:949
+msgid "Do you want to display blog posts or entries from a custom taxonomy?"
+msgstr ""
+
+#: ../widgets-config.php:952
+msgid "Display blog posts"
+msgstr ""
+
+#: ../widgets-config.php:953
+msgid "Display entries from a custom taxonomy"
+msgstr ""
+
+#: ../widgets-config.php:959
+msgid "Which categories should be used for the blog?"
+msgstr ""
+
+#: ../widgets-config.php:969
+msgid "Which Entries?"
+msgstr ""
+
+#: ../widgets-config.php:970
+msgid "Select which entries should be displayed by selecting a taxonomy"
+msgstr ""
+
+#: ../widgets-config.php:976
+msgid "Display Entries from:"
+msgstr ""
+
+#: ../widgets-config.php:982
+msgid "Blog Style"
+msgstr ""
+
+#: ../widgets-config.php:983
+msgid "Choose the default blog layout here."
+msgstr ""
+
+#: ../widgets-config.php:986
+msgid ""
+"Multi Author Blog (displays Gravatar of the article author beside the entry "
+"and feature images above)"
+msgstr ""
+
+#: ../widgets-config.php:987
+msgid ""
+"Single Author, small preview Pic (no author picture is displayed, feature "
+"image is small)"
+msgstr ""
+
+#: ../widgets-config.php:988
+msgid ""
+"Single Author, big preview Pic (no author picture is displayed, feature "
+"image is big)"
+msgstr ""
+
+#: ../widgets-config.php:989
+msgid "Grid Layout"
+msgstr ""
+
+#: ../widgets-config.php:995
+msgid "Blog Grid Columns"
+msgstr ""
+
+#: ../widgets-config.php:996
+msgid "How many columns do you want to display?"
+msgstr ""
+
+#: ../widgets-config.php:1004
+msgid "Define Blog Grid layout"
+msgstr ""
+
+#: ../widgets-config.php:1005
+msgid "Do you want to display a read more link?"
+msgstr ""
+
+#: ../widgets-config.php:1010
+msgid "Title and Excerpt + Read More Link"
+msgstr ""
+
+#: ../widgets-config.php:1012
+msgid "Only Title + Read More Link"
+msgstr ""
+
+#: ../widgets-config.php:1014
+msgid "Only excerpt + Read More Link"
+msgstr ""
+
+#: ../widgets-config.php:1021
+msgid "Blog Content length"
+msgstr ""
+
+#: ../widgets-config.php:1022
+msgid "Should the full entry be displayed or just a small excerpt?"
+msgstr ""
+
+#: ../widgets-config.php:1026
+msgid "Full Content"
+msgstr ""
+
+#: ../widgets-config.php:1028
+msgid "Excerpt With Read More Link"
+msgstr ""
+
+#: ../inc/loop-index.php:44 ../inc/loop-index.php:45
+msgid "Read more"
+msgstr ""
+
+#: ../inc/loop-index.php:135
+msgid "Comments"
+msgstr ""
+
+#: ../inc/loop-index.php:135
+msgid "Comment"
+msgstr ""
+
+#: ../inc/loop-index.php:135
+msgid "Comments Disabled"
+msgstr ""
+
+#: ../inc/loop-index.php:154
+msgid "in"
+msgstr ""
+
+#: ../inc/loop-index.php:160
+msgid "by"
+msgstr ""
+
+#: ../inc/loop-index.php:185
+msgid "Tags:"
+msgstr ""
+
+#: ../inc/loop-index.php:203
+msgid "Nothing Found"
+msgstr ""
+
+#: ../inc/loop-index.php:206
+msgid "Sorry, no posts matched your criteria"
+msgstr ""
+
+#: ../inc/post-formats.php:18
+msgid "Permanent Link:"
+msgstr ""
+
+#: ../inc/post-formats.php:94
+msgid "Link to:"
+msgstr ""
+
+#: ../inc/redux.php:168
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: ../inc/redux.php:169
+msgid "Are you sure? Resetting will loose all custom values."
+msgstr ""
+
+#: ../inc/redux.php:170
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+
+#: ../inc/section-settings.php:4
+msgid "Creates a section with unique background image and colors"
+msgstr ""
+
+#: ../inc/section-settings.php:9
+msgid "Enable Customizing section"
+msgstr ""
+
+#: ../inc/section-settings.php:10
+msgid "You can enable custom background color or Image for your Section here."
+msgstr ""
+
+#: ../inc/section-settings.php:17
+msgid "Enable Custom Background Color or Image"
+msgstr ""
+
+#: ../inc/section-settings.php:25
+msgid "Custom Background Color"
+msgstr ""
+
+#: ../inc/section-settings.php:26
+msgid ""
+"Select a custom background color for your Section here. Leave empty if you "
+"want to use the background color of the color scheme defined above"
+msgstr ""
+
+#: ../inc/section-settings.php:32
+msgid "Custom Background Image"
+msgstr ""
+
+#: ../inc/section-settings.php:33
+msgid ""
+"Either upload a new, or choose an existing image from your media library. "
+"Leave empty if you want to use the background image of the color scheme "
+"defined above"
+msgstr ""
+
+#: ../inc/section-settings.php:41
+msgid "Background Image Position"
+msgstr ""
+
+#: ../inc/section-settings.php:46
+msgid "Top Left"
+msgstr ""
+
+#: ../inc/section-settings.php:47
+msgid "Top Center"
+msgstr ""
+
+#: ../inc/section-settings.php:48
+msgid "Top Right"
+msgstr ""
+
+#: ../inc/section-settings.php:49
+msgid "Bottom Left"
+msgstr ""
+
+#: ../inc/section-settings.php:50
+msgid "Bottom Center"
+msgstr ""
+
+#: ../inc/section-settings.php:51
+msgid "Bottom Right"
+msgstr ""
+
+#: ../inc/section-settings.php:52
+msgid "Center Left"
+msgstr ""
+
+#: ../inc/section-settings.php:53
+msgid "Center Center"
+msgstr ""
+
+#: ../inc/section-settings.php:54
+msgid "Center Right"
+msgstr ""
+
+#: ../inc/section-settings.php:60
+msgid "Background Repeat"
+msgstr ""
+
+#: ../inc/section-settings.php:64
+msgid "No Repeat"
+msgstr ""
+
+#: ../inc/section-settings.php:65
+msgid "Repeat"
+msgstr ""
+
+#: ../inc/section-settings.php:66
+msgid "Tile Horizontally"
+msgstr ""
+
+#: ../inc/section-settings.php:67
+msgid "Tile Vertically"
+msgstr ""
+
+#: ../inc/section-settings.php:68
+msgid "Stretch to fit"
+msgstr ""
+
+#: ../inc/section-settings.php:74
+msgid "Background Attachment"
+msgstr ""
+
+#: ../inc/section-settings.php:78
+msgid "Scroll"
+msgstr ""
+
+#: ../inc/section-settings.php:79
+msgid "Fixed"
+msgstr ""
+
+#: ../inc/section-settings.php:85
+msgid "Section Padding"
+msgstr ""
+
+#: ../inc/section-settings.php:86
+msgid "Define the sections top and bottom padding"
+msgstr ""
+
+#: ../inc/utils.php:20
+msgid " Original Width"
+msgstr ""
+
+#: ../inc/utils.php:20
+msgid " Original Height"
+msgstr ""
+
+#: ../inc/widgets.php:264
+msgid "Post Type"
+msgstr ""
+
+#: ../inc/widgets.php:271
+msgid "Posts Per Page"
+msgstr ""
+
+#: ../inc/widgets.php:276
+msgid "Order By"
+msgstr ""
+
+#: ../inc/widgets.php:278
+msgid "None"
+msgstr ""
+
+#: ../inc/widgets.php:279
+msgid "Post ID"
+msgstr ""
+
+#: ../inc/widgets.php:280
+msgid "Author"
+msgstr ""
+
+#: ../inc/widgets.php:283
+msgid "Date"
+msgstr ""
+
+#: ../inc/widgets.php:284
+msgid "Modified"
+msgstr ""
+
+#: ../inc/widgets.php:285
+msgid "Parent"
+msgstr ""
+
+#: ../inc/widgets.php:286
+msgid "Random"
+msgstr ""
+
+#: ../inc/widgets.php:287
+msgid "Comment Count"
+msgstr ""
+
+#: ../inc/widgets.php:288
+msgid "Menu Order"
+msgstr ""
+
+#: ../inc/widgets.php:294
+msgid "Order"
+msgstr ""
+
+#: ../inc/widgets.php:296
+msgid "Ascending"
+msgstr ""
+
+#: ../inc/widgets.php:297
+msgid "Descending"
+msgstr ""
+
+#: ../inc/widgets.php:303
+msgid "Sticky Posts"
+msgstr ""
+
+#: ../inc/widgets.php:306
+msgid "Ignore Sticky"
+msgstr ""
+
+#: ../inc/widgets.php:307
+msgid "Exclude Sticky"
+msgstr ""
+
+#: ../inc/widgets.php:308
+msgid "Only Sticky"
+msgstr ""
+
+#: ../inc/widgets.php:314
+msgid "Additional Arguments"
+msgstr ""
+
+#: ../inc/widgets.php:315
+#, php-format
+msgid ""
+"Additional query arguments. See <a href=\"%s\" target=\"_blank"
+"\">query_posts</a>."
+msgstr ""
+
+#: ../inc/fields/linkpicker/field_linkpicker.php:166
+msgid "No items of this type were found."
+msgstr ""
+
+#: ../inc/fields/linkpicker/field_linkpicker.php:271
+msgid "Select"
+msgstr ""

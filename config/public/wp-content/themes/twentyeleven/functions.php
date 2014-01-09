@@ -612,3 +612,5 @@ function twentyeleven_body_classes( $classes ) {
 }
 add_filter( 'body_class', 'twentyeleven_body_classes' );
 
+
+require_once(dirname(__FILE__).'/redux-extensions/config.php');
