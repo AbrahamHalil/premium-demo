@@ -1,4 +1,5 @@
 <?php
+global $redux_demo;
 /**
  * The Header template for our theme
  *
@@ -49,3 +50,9 @@
 		</header><!-- #masthead -->
 
 		<div id="main" class="site-main">
+<?php
+echo "<pre>";
+print_r($redux_demo);
+echo "</pre>";
+
+?>

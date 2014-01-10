@@ -553,6 +553,10 @@ if( file_exists( dirname( __FILE__ ) . '/redux-extensions/config.php' ) ) {
     require_once( dirname( __FILE__ ) . '/redux-extensions/config.php' );
 }
 
+if( file_exists( dirname( __FILE__ ) . '/redux-framework/ReduxCore/framework.php' ) ) {
+    require_once( dirname( __FILE__ ) . '/redux-framework/ReduxCore/framework.php' );
+}
+
 
 add_filter('redux/options/redux_demo/args', 'redux_embed_change_args' );
 function redux_embed_change_args($args) {

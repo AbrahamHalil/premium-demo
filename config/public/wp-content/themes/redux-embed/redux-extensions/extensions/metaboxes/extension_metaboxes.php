@@ -68,6 +68,7 @@ if( !class_exists( 'ReduxFramework_extension_metaboxes' ) ) {
 
 		public function _enqueue() {
 			// Enqueue css
+
 			foreach ($this->boxes as $key => $box) {
 				if ( empty( $box['sections'] ) ) {
 					continue;
@@ -157,7 +158,13 @@ if( !class_exists( 'ReduxFramework_extension_metaboxes' ) ) {
 						if ( isset($box['title'] ) ) {
 							$title = $box['title'];
 						} else {
-							$title = ucfirst( $posttype ) . " " . __('Options', 'redux-framework');
+							if ( isset( $box['sections'] ) && count( $box['sections'] ) == 1 && isset( $box['sections'][0]['fields'] ) && count($box['sections'][0]['fields']) == 1 && isset( $box['sections'][0]['fields'][0]['title'] ) ) {
+								// If only one field in this box
+								$title = $box['sections'][0]['fields'][0]['title'];
+							} else {
+								$title = ucfirst( $posttype ) . " " . __('Options', 'redux-framework');	
+							}
+							
 						}
 						$args = array(
 							'position' => $box['position'],
@@ -219,7 +226,7 @@ if( !class_exists( 'ReduxFramework_extension_metaboxes' ) ) {
 				});
 			});
 			</script>
-			<div id="redux-container" class="panel-wrap product_data">
+			<div class="panel-wrap product_data">
 					<div class="wc-tabs-back"></div>
 					<?php if ( $metabox['args']['position'] != "side" && count($sections) > 1) : ?>
 						<ul class="redux_data_tabs wc-tabs" style="">
@@ -229,12 +236,22 @@ if( !class_exists( 'ReduxFramework_extension_metaboxes' ) ) {
 							<?php endforeach; ?>
 						</ul>
 					<?php endif; ?>
-					<?php foreach($sections as $sKey=> $section) : ?>
+					<?php foreach($sections as $sKey => $section) : ?>
+						
 						<?php $sectionID = str_replace( array(" "), "_", strtolower( $section['title'] ) )  ?>
 						<div id="<?php echo $sectionID; ?>" class="panel redux_metabox_panel">
 							<?php 
 								if ( isset( $section['fields'] ) && !empty( $section['fields'] ) ) {
 									foreach( $section['fields'] as $fKey=> $field ) {
+										
+										if ( !( isset( $metabox['args']['sections'] ) && count( $metabox['args']['sections'] ) == 1 && isset( $metabox['args']['sections'][0]['fields'] ) && count( $metabox['args']['sections'][0]['fields'] ) == 1 ) && isset( $field['title'] ) ) {
+											echo '<h3>'.$field['title'].'</h3>';	
+										}
+
+										if ( isset( $field['subtitle'] ) ) {
+											echo '<span class="subtitle">'.$field['subtitle'].'</span>';
+										}
+										
 										// Set the default if it's a new field
 										$default = $this->_field_default( $field['id'] );
 										$this->parent->options_defaults[$field['id']] = $default;
