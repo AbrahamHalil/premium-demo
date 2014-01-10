@@ -1,5 +1,5 @@
 <?php
-
+return;
 $redux_opt_name = "redux_demo";
 
 // The loader will load all of the extensions automatically.
