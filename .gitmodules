@@ -1,3 +1,3 @@
-[submodule "config/public/wp-content/plugins/redux-framework"]
-	path = config/public/wp-content/plugins/redux-framework
+[submodule "config/public/wp-content/themes/redux-embed/redux-framework"]
+	path = config/public/wp-content/themes/redux-embed/redux-framework
 	url = https://github.com/ReduxFramework/ReduxFramework.git

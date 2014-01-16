@@ -1,5 +1,5 @@
 <?php
-return;
+
 $redux_opt_name = "redux_demo";
 
 // The loader will load all of the extensions automatically.
@@ -29,9 +29,9 @@ if ( !function_exists( "redux_add_metaboxes" ) ):
 
 			$boxSections[] = array(
 				'title' => __('Home Settings', 'redux-framework-demo'),
-				'desc' => __('Redux Framework was created with the developer in mind. It allows for any theme developer to have an advanced theme panel with most of the features a developer would need. For more information check out the Github repo at: <a href="https://github.com/ReduxFramework/Redux-Framework">https://github.com/ReduxFramework/Redux-Framework</a>', 'redux-framework-demo'),
+				//'desc' => __('Redux Framework was created with the developer in mind. It allows for any theme developer to have an advanced theme panel with most of the features a developer would need. For more information check out the Github repo at: <a href="https://github.com/ReduxFramework/Redux-Framework">https://github.com/ReduxFramework/Redux-Framework</a>', 'redux-framework-demo'),
 				'icon' => 'el-icon-home',
-			    // 'submenu' => false, // Setting submenu to false on a given section will hide it from the WordPress sidebar menu!
+				'show_title' => false,
 				'fields' => array(	
 					array(
 						'id'=>'webFonts',
@@ -134,52 +134,16 @@ if ( !function_exists( "redux_add_metaboxes" ) ):
 						"default" 		=> 0,
 						),	
 
-					array(
-						'id'=>'switch-custom',
-						'type' => 'switch', 
-						'title' => __('Switch - Custom Titles', 'redux-framework-demo'),
-						'subtitle'=> __('Look, it\'s on! Also hidden child elements!', 'redux-framework-demo'),
-						"default" 		=> 0,
-						'on' => 'Enabled',
-						'off' => 'Disabled',
-						),	
 
-					array(
-						'id'=>'switch-fold',
-						'type' => 'switch', 
-						'required' => array('switch-custom','=','1'),						
-						'title' => __('Switch - With Hidden Items (NESTED!)', 'redux-framework-demo'),
-						'subtitle'=> __('Also called a "fold" parent.', 'redux-framework-demo'),
-						'desc' => __('Items set with a fold to this ID will hide unless this is set to the appropriate value.', 'redux-framework-demo'),
-						'default' => 0,
-						),			
-			        array(
-			            "id" => "homepage_blocks_three",
-			            "type" => "sorter",
-			            "title" => "Layout Manager Advanced",
-			            "subtitle" => "You can add multiple drop areas or columns.",
-			            "compiler"=>'true',
-			            //'required' => array('switch-fold','equals','0'),	
-			            'options' => array(
-			                "enabled" => array(
-			                    "placebo" => "placebo", //REQUIRED!
-			                    "highlights" => "Highlights",
-			                    "slider" => "Slider",
-			                    "staticpage" => "Static Page",
-			                    "services" => "Services"
-			                ),
-			                "disabled" => array(
-			                    "placebo" => "placebo", //REQUIRED!
-			                ),
-			                "backup" => array(
-			                    "placebo" => "placebo", //REQUIRED!
-			                ),                
-			            ),
-			            'limits' => array(
-			            	"disabled" => 1,
-			            	"backup" => 2,
-			            ),
-			        ),
+					)
+				);
+//*
+				$boxSections[] = array(
+				'title' => __('Home Layout', 'redux-framework-demo'),
+				'desc' => __('Redux Framework was created with the developer in mind. It allows for any theme developer to have an advanced theme panel with most of the features a developer would need. For more information check out the Github repo at: <a href="https://github.com/ReduxFramework/Redux-Framework">https://github.com/ReduxFramework/Redux-Framework</a>', 'redux-framework-demo'),
+				'icon' => 'el-icon-home',
+				'show_title' => false,
+				'fields' => array(	
 			        array(
 			            "id" => "homepage_blocks",
 			            "type" => "sorter",
@@ -325,32 +289,26 @@ if ( !function_exists( "redux_add_metaboxes" ) ):
 						),	
 					),
 				);
+//*/
 
-
-
-			$boxSections[] = array(
-				'type' => 'divide',
-			);
-
-
-$metaboxes = array();
+	  $metaboxes = array();
 
       $metaboxes[] = array(
         'id' => 'demo-layout',
-        //'title' => __('Cool Options', 'redux-framework-demo'),
+        'title' => __('Cool Options', 'redux-framework-demo'),
         'post_types' => array('page','post'),
         'position' => 'normal', // normal, advanced, side
         'priority' => 'high', // high, core, default, low
+        'sidebar' => false, // enable/disable the sidebar in the normal/advanced positions
         'sections' => $boxSections
       );
       $boxSections = array();
       $boxSections[] = array(
         'title' => __('Home Settings', 'redux-framework-demo'),
-        'header' => __('Welcome to the Simple Options Framework Demo', 'redux-framework-demo'),
-        'desc' => __('Redux Framework was created with the developer in mind. It allows for any theme developer to have an advanced theme panel with most of the features a developer would need. For more information check out the Github repo at: <a href="https://github.com/ReduxFramework/Redux-Framework">https://github.com/ReduxFramework/Redux-Framework</a>', 'redux-framework-demo'),
+        //'show_title' => false,
+        //'desc' => __('Redux Framework was created with the developer in mind. It allows for any theme developer to have an advanced theme panel with most of the features a developer would need. For more information check out the Github repo at: <a href="https://github.com/ReduxFramework/Redux-Framework">https://github.com/ReduxFramework/Redux-Framework</a>', 'redux-framework-demo'),
         'icon_class' => 'icon-large',
-          'icon' => 'el-icon-home',
-          // 'submenu' => false, // Setting submenu to false on a given section will hide it from the WordPress sidebar menu!
+        'icon' => 'el-icon-home',
         'fields' => array(
           array(
             'title'     => __( 'Layout', 'redux-framework-demo' ),
@@ -367,7 +325,7 @@ $metaboxes = array();
               4         => ReduxFramework::$_url . 'assets/img/3cr.png',
               5         => ReduxFramework::$_url . 'assets/img/3cm.png',
             )
-          )
+          ),
         )
       );
   	  
